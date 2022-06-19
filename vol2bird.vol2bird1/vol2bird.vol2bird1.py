@@ -196,8 +196,7 @@ for radar_dict in radar_db_json:
     except Exception:  # Happens when there is for ex. no wmo code.
         pass
 
-file = input_file_list[0]
-print(file)
+file = input_file_list
 output_file = vol2bird(file, out_dir_vp, radar_db)
 output_file_list.append(output_file)
 
