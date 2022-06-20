@@ -6,7 +6,7 @@ dependencies:
   - pip
   - python=3.9
   - pip:
-    - minio
     - h5py
+    - minio
     - pandas
 
